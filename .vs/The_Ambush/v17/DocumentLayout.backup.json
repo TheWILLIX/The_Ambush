@@ -3,11 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\wxhaflaire\\Documents\\GitHub\\The_Ambush\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|c:\\users\\wxhaflaire\\documents\\github\\the_ambush\\assets\\code\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|c:\\users\\wxhaflaire\\documents\\github\\the_ambush\\assets\\code\\wave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\wave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|C:\\Users\\wxhaflaire\\Documents\\GitHub\\The_Ambush\\assets\\code\\simplespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\simplespawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|C:\\Users\\wxhaflaire\\Documents\\GitHub\\The_Ambush\\assets\\code\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|c:\\users\\wxhaflaire\\documents\\github\\the_ambush\\assets\\code\\player_shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|C:\\Users\\wxhaflaire\\Documents\\GitHub\\The_Ambush\\assets\\code\\player_shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\player_shoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -27,6 +35,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Wave.cs",
+              "DocumentMoniker": "C:\\Users\\wxhaflaire\\Documents\\GitHub\\The_Ambush\\Assets\\Code\\Wave.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Wave.cs",
+              "ToolTip": "C:\\Users\\wxhaflaire\\Documents\\GitHub\\The_Ambush\\Assets\\Code\\Wave.cs",
+              "RelativeToolTip": "Assets\\Code\\Wave.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T10:06:33.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SimpleSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\wxhaflaire\\Documents\\GitHub\\The_Ambush\\Assets\\Code\\SimpleSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\SimpleSpawner.cs",
+              "ToolTip": "C:\\Users\\wxhaflaire\\Documents\\GitHub\\The_Ambush\\Assets\\Code\\SimpleSpawner.cs",
+              "RelativeToolTip": "Assets\\Code\\SimpleSpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T09:57:29.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\wxhaflaire\\Documents\\GitHub\\The_Ambush\\Assets\\Code\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Enemy.cs",
@@ -34,12 +67,11 @@
               "RelativeToolTip": "Assets\\Code\\Enemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T09:55:57.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T09:55:57.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Player_Shoot.cs",
               "DocumentMoniker": "C:\\Users\\wxhaflaire\\Documents\\GitHub\\The_Ambush\\Assets\\Code\\Player_Shoot.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Player_Shoot.cs",
@@ -47,8 +79,7 @@
               "RelativeToolTip": "Assets\\Code\\Player_Shoot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T09:55:09.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T09:55:09.061Z"
             }
           ]
         }
