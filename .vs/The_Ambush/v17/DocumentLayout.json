@@ -7,11 +7,11 @@
       "RelativeMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\enemy\\wave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|c:\\users\\wxhaflaire\\documents\\github\\the_ambush\\assets\\code\\joueur\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|C:\\Users\\wxhaflaire\\Documents\\GitHub\\The_Ambush\\assets\\code\\joueur\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\joueur\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|c:\\users\\wxhaflaire\\documents\\github\\the_ambush\\assets\\code\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|C:\\Users\\wxhaflaire\\Documents\\GitHub\\The_Ambush\\assets\\code\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{56CE041C-0EFD-C9F0-4926-E57D0FE1F940}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Assets\\Code\\Enemy\\Wave.cs",
               "ToolTip": "C:\\Users\\wxhaflaire\\Documents\\GitHub\\The_Ambush\\Assets\\Code\\Enemy\\Wave.cs",
               "RelativeToolTip": "Assets\\Code\\Enemy\\Wave.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAmwB0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-11T10:24:40.829Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "Assets\\Code\\Enemy\\Enemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T10:18:02.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T10:18:02.782Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "Assets\\Code\\Joueur\\Score.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-11T10:17:40.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-11T10:17:40.457Z"
             },
             {
               "$type": "Document",
