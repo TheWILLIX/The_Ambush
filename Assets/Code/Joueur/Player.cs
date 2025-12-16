@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_Shoot : MonoBehaviour
+public class Player : MonoBehaviour
 {
     public Camera cam;
     public int bullets = 6;
+    public int vie = 4;
 
     void Update()
     {
