@@ -25,50 +25,19 @@ public class Wave : MonoBehaviour
     {
         waveInProgress = true;
 
+        Debug.Log("Vague " + waveNumber + " commence dans " + timeBetweenWaves + " secondes.");
         yield return new WaitForSeconds(timeBetweenWaves);
 
         int enemyCount = waveNumber * 3;
 
         for (int i = 0; i < enemyCount; i++)
         {
-            Transform spawn = GetFreeSpawnPoint();
-
-            if (spawn != null)
-            {
-                Instantiate(enemyPrefab, spawn.position, spawn.rotation);
-            }
-            else
-            {
-                Debug.LogWarning("Aucun point de spawn libre !");
-            }
-
+            Transform spawn = spawnPoints[Random.Range(0, spawnPoints.Length)];
+            Instantiate(enemyPrefab, spawn.position, spawn.rotation);
             yield return new WaitForSeconds(0.3f);
         }
 
         waveNumber++;
         waveInProgress = false;
-    }
-
-    Transform GetFreeSpawnPoint()
-    {
-        foreach (Transform spawn in spawnPoints)
-        {
-            Collider[] colliders = Physics.OverlapSphere(spawn.position, 0.5f);
-
-            bool occupied = false;
-            foreach (Collider col in colliders)
-            {
-                if (col.CompareTag("Enemy"))
-                {
-                    occupied = true;
-                    break;
-                }
-            }
-
-            if (!occupied)
-                return spawn;
-        }
-
-        return null;
     }
 }
