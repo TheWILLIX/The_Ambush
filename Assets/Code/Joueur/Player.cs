@@ -1,12 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
     public Camera cam;
     public int bullets = 6;
     public int vie = 4;
+    public Text Nb_Munition;
+
+    private void Start()
+    {
+        Nb_Munition.text = "Munition : " + bullets;
+    }
 
     void Update()
     {
@@ -36,12 +43,12 @@ public class Player : MonoBehaviour
                 enemy.TakeDamage(1f);
             }
         }
-        Debug.Log(bullets);
+        Nb_Munition.text = "Munition : " + bullets;
     }
 
     void Realod() 
     {
         bullets = 6;
-        Debug.Log(bullets);
+        Nb_Munition.text = "Munition : " + bullets;
     }
 }
