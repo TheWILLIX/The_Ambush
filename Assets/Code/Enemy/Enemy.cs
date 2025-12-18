@@ -2,26 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
 public class Enemy : MonoBehaviour
 {
-    public float health = 3f;
-    public Player player;
+    public int health;
+    public Player playerRef;
     WaitForSeconds timer;
 
     public void Start()
     {
-        player = FindObjectOfType<Player>();
+        playerRef = FindObjectOfType<Player>();
         StartCoroutine(TireSurJoueur());
     }
 
-    public void TakeDamage(float damage)
+    public void TakeDamage(int damage)
     {
         health -= damage;
-
-        Debug.Log("Enemy touched! Health = " + health);
+        
 
         if (health <= 0)
         {
@@ -33,7 +33,7 @@ public class Enemy : MonoBehaviour
     public IEnumerator TireSurJoueur() 
     {
        yield return new WaitForSeconds(4);
-        player.vie--;
-        Debug.Log("Vie Joueur : " + player.vie);
+        playerRef.vie = 0;
+        FindObjectOfType<Player>().Change_Life();
     }
 }

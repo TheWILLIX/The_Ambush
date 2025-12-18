@@ -9,10 +9,13 @@ public class Player : MonoBehaviour
     public int bullets = 6;
     public int vie = 4;
     public Text Nb_Munition;
+    public Text Nb_Vie;
+    public bool gameOver = false;
 
     private void Start()
     {
         Nb_Munition.text = "Munition : " + bullets;
+        Change_Life();
     }
 
     void Update()
@@ -32,23 +35,38 @@ public class Player : MonoBehaviour
 
     void Shoot()
     {
-        bullets--;
-        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-        RaycastHit hit;
-
-        if (Physics.Raycast(ray, out hit, 1000f))
+        if (gameOver == false)
         {
-            if (hit.collider.TryGetComponent(out Enemy enemy))
+            bullets--;
+            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit, 1000f))
             {
-                enemy.TakeDamage(1f);
+                if (hit.collider.TryGetComponent(out Enemy enemy))
+                {
+                    enemy.TakeDamage(1);
+                }
             }
+            Nb_Munition.text = "Munition : " + bullets;
         }
-        Nb_Munition.text = "Munition : " + bullets;
     }
 
     void Realod() 
     {
         bullets = 6;
         Nb_Munition.text = "Munition : " + bullets;
+    }
+
+    public void Change_Life() 
+    {
+        Nb_Vie.text = "Vie : " + vie;
+        Debug.Log(vie);
+        if (vie <= 0) 
+        {
+            FindObjectOfType<Game>().PlayGameOver();
+            gameOver = true;
+            
+        }
     }
 }

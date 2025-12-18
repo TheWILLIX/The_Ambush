@@ -64,7 +64,6 @@ public class Wave : MonoBehaviour
 
         waveNumber++;
         waveInProgress = false;
-        Debug.Log(waveInProgress);
     }
 
 }
