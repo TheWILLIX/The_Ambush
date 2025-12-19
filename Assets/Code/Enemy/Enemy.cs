@@ -32,8 +32,8 @@ public class Enemy : MonoBehaviour
 
     public IEnumerator TireSurJoueur() 
     {
-       yield return new WaitForSeconds(4);
-        playerRef.vie = 0;
+       yield return new WaitForSeconds(3);
+        playerRef.vie--;
         FindObjectOfType<Player>().Change_Life();
     }
 }

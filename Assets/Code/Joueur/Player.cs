@@ -49,6 +49,11 @@ public class Player : MonoBehaviour
                 }
             }
             Nb_Munition.text = "Munition : " + bullets;
+
+            if (bullets <= 0)
+            {
+                FindObjectOfType<Reload>().PlayReload();
+            }
         }
     }
 
@@ -56,6 +61,7 @@ public class Player : MonoBehaviour
     {
         bullets = 6;
         Nb_Munition.text = "Munition : " + bullets;
+        FindObjectOfType<Reload>().StopReload();
     }
 
     public void Change_Life() 
@@ -64,7 +70,7 @@ public class Player : MonoBehaviour
         Debug.Log(vie);
         if (vie <= 0) 
         {
-            FindObjectOfType<Game>().PlayGameOver();
+            FindObjectOfType<GameOver>().PlayGameOver();
             gameOver = true;
             
         }
