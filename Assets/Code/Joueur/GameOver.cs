@@ -23,6 +23,7 @@ public class GameOver : MonoBehaviour
     public void PlayGameOver() 
     {
         panelGameOver.SetActive(true);
-        
+        Cursor.visible = true;
+
     }
 }
