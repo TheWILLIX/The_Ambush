@@ -24,6 +24,8 @@ public class GameOver : MonoBehaviour
     {
         panelGameOver.SetActive(true);
         Cursor.visible = true;
+        Viseur viseur = FindObjectOfType<Viseur>();
+        viseur.gameObject.SetActive(false);
 
     }
 }
