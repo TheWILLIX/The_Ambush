@@ -1,0 +1,336 @@
+Using pre-set license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f3 (96770f904ca7) revision 9860879'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Core' Language: 'en' Physical Memory: 31904 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2022.3.62f3\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker16
+-projectPath
+E:/GIt/The_Ambush
+-logFile
+Logs/AssetImportWorker16.log
+-srvPort
+65264
+Successfully changed project path to: E:/GIt/The_Ambush
+E:/GIt/The_Ambush
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [35460]  Target information:
+
+Player connection [35460]  * "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 2664240739 [EditorId] 2664240739 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IJS72VE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35460]  * "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 2664240739 [EditorId] 2664240739 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IJS72VE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [35460] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [35460] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 5.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path E:/Unity/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/GIt/The_Ambush/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.8088
+Initialize mono
+Mono path[0] = 'E:/Unity/2022.3.62f3/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56048
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002469 seconds.
+- Loaded All Assemblies, in  0.218 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.158 seconds
+Domain Reload Profiling: 376ms
+	BeginReloadAssembly (68ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (83ms)
+		LoadAssemblies (68ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (82ms)
+			TypeCache.Refresh (81ms)
+				TypeCache.ScanAssembly (73ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (158ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (131ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.384 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.351 seconds
+Domain Reload Profiling: 735ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (245ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (115ms)
+			TypeCache.Refresh (100ms)
+				TypeCache.ScanAssembly (91ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (352ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (264ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3675 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (112.2 KB). Loaded Objects now: 4146.
+Memory consumption went from 143.4 MB to 143.3 MB.
+Total: 2.407800 ms (FindLiveObjects: 0.182200 ms CreateObjectMapping: 0.058400 ms MarkObjects: 2.084800 ms  DeleteObjects: 0.081900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4222363.333372 seconds.
+  path: Assets/Prefab/Projectile.prefab
+  artifactKey: Guid(4e7fa123aafc20449936c0b0bd957ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Projectile.prefab using Guid(4e7fa123aafc20449936c0b0bd957ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '647aced5f8e0c5d8612d8039a3a53104') in 0.072495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Prefab/Spawner.prefab
+  artifactKey: Guid(faebd98ee6d0b204ba7dab4549542b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Spawner.prefab using Guid(faebd98ee6d0b204ba7dab4549542b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '975e14880b68fc4a932118873c14cc2a') in 0.001423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 20.761041 seconds.
+  path: Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_A_1m_B.prefab
+  artifactKey: Guid(641fffceb0a580d4a8a40f63d45e2ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_A_1m_B.prefab using Guid(641fffceb0a580d4a8a40f63d45e2ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5ba5f1674762ea5f15969de650beb9da') in 0.016594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.004420 seconds.
+  path: Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_A_3m_B.prefab
+  artifactKey: Guid(821f9e9b3680dd946a4ebb6f548e72a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_A_3m_B.prefab using Guid(821f9e9b3680dd946a4ebb6f548e72a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9a76e1f50c64ceacecdab97f6013f680') in 0.009579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_A_Corner_B.prefab
+  artifactKey: Guid(674664cb5a0969c4db806a34a4c1d42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_A_Corner_B.prefab using Guid(674664cb5a0969c4db806a34a4c1d42f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '44ef0876478a005cf9641701b5787f34') in 0.013600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_C_2m_B.prefab
+  artifactKey: Guid(d7b6e0c28085f1244914a706ae58e85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_C_2m_B.prefab using Guid(d7b6e0c28085f1244914a706ae58e85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '334bbddad3f0c380abd600234cb4d54a') in 0.009359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_C_1m_B.prefab
+  artifactKey: Guid(cc32c2a7a45a6634c86538d118d31fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_C_1m_B.prefab using Guid(cc32c2a7a45a6634c86538d118d31fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '08cd4f3832b6c7f1d978cbcde4369716') in 0.008775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_D_Corner.prefab
+  artifactKey: Guid(d68d4d1d5aa5bf74391a9d003f101bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_D_Corner.prefab using Guid(d68d4d1d5aa5bf74391a9d003f101bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a4fe446553a28cd9fc7616ee6207e734') in 0.008795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_A_3m_A.prefab
+  artifactKey: Guid(d733dbe9d5844504b88d7d59e89a0403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_A_3m_A.prefab using Guid(d733dbe9d5844504b88d7d59e89a0403) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3e036c7c5dba12fc2892c8a3bc2ace5a') in 0.009567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_A_Corner_Round_A.prefab
+  artifactKey: Guid(1903c74bc39a9b74c9175b3cf64a9715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_A_Corner_Round_A.prefab using Guid(1903c74bc39a9b74c9175b3cf64a9715) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8f3821b92f3ef30e81357458004bb1c6') in 0.010643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_A_6m.prefab
+  artifactKey: Guid(86562f6c602f72d468a3ad541346e857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_A_6m.prefab using Guid(86562f6c602f72d468a3ad541346e857) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c8e9f6097d7d3d03e77207da4bc12b43') in 0.010476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_C_2m_A.prefab
+  artifactKey: Guid(a0a156fa33f613b4489ac797f5495be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_C_2m_A.prefab using Guid(a0a156fa33f613b4489ac797f5495be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f7e81b546ce0c1b140aa7126ce838679') in 0.008970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_C_Corner_A.prefab
+  artifactKey: Guid(071362c949ce70645a32682cb630cc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Prefabs/Ledge/Ledge_C_Corner_A.prefab using Guid(071362c949ce70645a32682cb630cc07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dfae304957697a949cd6b8640447ae5c') in 0.008286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 8.027413 seconds.
+  path: Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Textures/Floors_1/Floors_1_ORM_1K.png
+  artifactKey: Guid(c6f984a4f9b46654dbe0e02bf60fad85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Textures/Floors_1/Floors_1_ORM_1K.png using Guid(c6f984a4f9b46654dbe0e02bf60fad85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c7075cd231521e611ada6f8e1c4fa3fc') in 0.019086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Textures/Floors_1/Floors_1_ORM_2K.png
+  artifactKey: Guid(eece6e8014cdc6048a982427305caa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Map & decor/Mesh/LoafbrrAssets/ModularBrickhouses/Textures/Floors_1/Floors_1_ORM_2K.png using Guid(eece6e8014cdc6048a982427305caa23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd5bc5e325c9eeb643e784ea9db8be9ab') in 0.014567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
