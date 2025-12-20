@@ -1,9 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 public class Enemy : MonoBehaviour
@@ -11,6 +12,7 @@ public class Enemy : MonoBehaviour
     public int health;
     public Player playerRef;
     WaitForSeconds timer;
+    public GameObject projectilePrefab;
 
     public void Start()
     {
@@ -33,7 +35,6 @@ public class Enemy : MonoBehaviour
     public IEnumerator TireSurJoueur() 
     {
        yield return new WaitForSeconds(3);
-        playerRef.vie--;
-        FindObjectOfType<Player>().Change_Life();
+        Instantiate(projectilePrefab, transform.position, transform.rotation) ;
     }
 }
