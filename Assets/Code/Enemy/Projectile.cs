@@ -21,7 +21,13 @@ public class Projectile : MonoBehaviour
         {
             player.vie--;
             player.Change_Life();
-            Destroy(gameObject);
+            DestroyProjectile();
+
         }
+    }
+
+    public void DestroyProjectile() 
+    {         
+        Destroy(gameObject);
     }
 }

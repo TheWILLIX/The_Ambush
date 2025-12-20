@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: -3505343350780342385}
   - component: {fileID: 4535352075791192876}
   - component: {fileID: 4422118517063095014}
+  - component: {fileID: -8067525192786254410}
   m_Layer: 0
   m_Name: Projectile
   m_TagString: Untagged
@@ -96,3 +97,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba163b8f0299b3548a09d5a03afa3b43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!64 &-8067525192786254410
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5697841660185216132}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}

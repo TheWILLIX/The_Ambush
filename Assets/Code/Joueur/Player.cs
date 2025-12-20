@@ -47,6 +47,10 @@ public class Player : MonoBehaviour
                 {
                     enemy.TakeDamage(1);
                 }
+                if (hit.collider.TryGetComponent(out Projectile projectile))
+                {
+                    projectile.DestroyProjectile();
+                }
             }
             Nb_Munition.text = "Munition : " + bullets;
 
