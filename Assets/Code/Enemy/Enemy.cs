@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
     {
         playerRef = FindObjectOfType<Player>();
         StartCoroutine(TireSurJoueur());
+        transform.rotation = Quaternion.LookRotation(playerRef.transform.position - transform.position);
     }
 
     public void TakeDamage(int damage)
