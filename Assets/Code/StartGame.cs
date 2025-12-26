@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class Retry : MonoBehaviour
+public class StartGame : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -17,11 +16,11 @@ public class Retry : MonoBehaviour
         
     }
 
-    public void RetryGame()
+    public void StartTheGame()
     {
-        UnityEngine.SceneManagement.SceneManager.UnloadScene("Map");
+        //UnityEngine.SceneManagement.SceneManager.UnloadScene("Menu_Principal");
         UnityEngine.SceneManagement.SceneManager.LoadScene("Map");
         
-        Debug.Log("Retry");
+
     }
 }
