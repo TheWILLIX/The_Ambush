@@ -35,7 +35,11 @@ public class Enemy : MonoBehaviour
 
     public IEnumerator TireSurJoueur() 
     {
-       yield return new WaitForSeconds(3);
-        Instantiate(projectilePrefab, transform.position, transform.rotation) ;
+        while (true) 
+        {
+            yield return new WaitForSeconds(3);
+            Instantiate(projectilePrefab, transform.position, transform.rotation);
+        }
+        
     }
 }
