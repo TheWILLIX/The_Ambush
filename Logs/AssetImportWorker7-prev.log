@@ -15,7 +15,7 @@ E:/GIt/The_Ambush
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-53782
+52482
 Successfully changed project path to: E:/GIt/The_Ambush
 E:/GIt/The_Ambush
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,17 +49,15 @@ E:/GIt/The_Ambush
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24272]  Target information:
+Player connection [420]  Target information:
 
-Player connection [24272]  * "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 1116213834 [EditorId] 1116213834 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IJS72VE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [420]  * "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 2063112373 [EditorId] 2063112373 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IJS72VE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [24272]  * "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 1116213834 [EditorId] 1116213834 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IJS72VE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [24272] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [24272] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [420] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [420] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 4.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.62f3 (96770f904ca7)
 [Subsystems] Discovering subsystems at path E:/Unity/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
@@ -75,44 +73,44 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2022.3.62f3/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002401 seconds.
-- Loaded All Assemblies, in  0.244 seconds
+Registered in 0.002075 seconds.
+- Loaded All Assemblies, in  0.205 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.165 seconds
-Domain Reload Profiling: 409ms
-	BeginReloadAssembly (87ms)
+- Finished resetting the current domain, in  0.149 seconds
+Domain Reload Profiling: 354ms
+	BeginReloadAssembly (72ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (82ms)
-		LoadAssemblies (87ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (76ms)
+		LoadAssemblies (71ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (81ms)
-			TypeCache.Refresh (80ms)
-				TypeCache.ScanAssembly (72ms)
+		AnalyzeDomain (75ms)
+			TypeCache.Refresh (75ms)
+				TypeCache.ScanAssembly (67ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (165ms)
+	FinalizeReload (149ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (136ms)
+		SetupLoadedEditorAssemblies (123ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (93ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
+			ProcessInitializeOnLoadAttributes (87ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,50 +119,50 @@ Domain Reload Profiling: 409ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.381 seconds
+- Loaded All Assemblies, in  0.356 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.339 seconds
-Domain Reload Profiling: 721ms
-	BeginReloadAssembly (95ms)
+- Finished resetting the current domain, in  0.383 seconds
+Domain Reload Profiling: 739ms
+	BeginReloadAssembly (84ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (21ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (235ms)
-		LoadAssemblies (179ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (162ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (114ms)
-			TypeCache.Refresh (98ms)
-				TypeCache.ScanAssembly (88ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
+		AnalyzeDomain (109ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (87ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (340ms)
+	FinalizeReload (384ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (259ms)
+		SetupLoadedEditorAssemblies (298ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (33ms)
-			ProcessInitializeOnLoadAttributes (208ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
-			AfterProcessingInitializeOnLoad (1ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (241ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3679 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (0.8 MB). Loaded Objects now: 4154.
-Memory consumption went from 146.7 MB to 145.8 MB.
-Total: 2.943100 ms (FindLiveObjects: 0.229600 ms CreateObjectMapping: 0.067700 ms MarkObjects: 2.389400 ms  DeleteObjects: 0.256000 ms)
+Unloading 3818 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (1.7 MB). Loaded Objects now: 4281.
+Memory consumption went from 159.7 MB to 158.0 MB.
+Total: 5.238100 ms (FindLiveObjects: 0.676100 ms CreateObjectMapping: 0.228900 ms MarkObjects: 3.672900 ms  DeleteObjects: 0.659500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -174,658 +172,14 @@ AssetImportParameters requested are different than current active one (requested
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/ReadmeEditor.cs: ff7ced1e41c1b99ddf5dfefc88f6bd50 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4604.096030 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/High Matters/Free American Sedans/Prefabs/Taxi.prefab
-  artifactKey: Guid(b12952e62525ed648967814a075216b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/High Matters/Free American Sedans/Prefabs/Taxi.prefab using Guid(b12952e62525ed648967814a075216b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f962c8dc2337c72c1633c0230cd36761') in 0.134432 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 82
-========================================================================
-Received Import Request.
-  Time since last request: 20.378030 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_BrickPaletteStack_01a.FBX
-  artifactKey: Guid(5072e857e184a694da55cf8d37a03cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_BrickPaletteStack_01a.FBX using Guid(5072e857e184a694da55cf8d37a03cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2e7d7058d2f1f673c85f9fde974a8742') in 0.060285 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_ConcreteBag_04a.FBX
-  artifactKey: Guid(f4b9209b89cced14ca0bcd626f5abd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_ConcreteBag_04a.FBX using Guid(f4b9209b89cced14ca0bcd626f5abd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7f3178f957820d068cd95faacf2d6507') in 0.031697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_Drywall_01b.FBX
-  artifactKey: Guid(cb12fbb507944bb45b7f3311dd1f5e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_Drywall_01b.FBX using Guid(cb12fbb507944bb45b7f3311dd1f5e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '425ff7dafd5d235ae51111eb37e57583') in 0.024768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_ConstructionPylons_01d.FBX
-  artifactKey: Guid(58c171563f2d07a41bcbcb7b373d8c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_ConstructionPylons_01d.FBX using Guid(58c171563f2d07a41bcbcb7b373d8c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a877fa6cdba76caec17712cfec8f54a8') in 0.031418 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_BrickPaletteStack_01d.FBX
-  artifactKey: Guid(310902dd75b1c0147b2767b1beb50d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_BrickPaletteStack_01d.FBX using Guid(310902dd75b1c0147b2767b1beb50d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2667bd95653c386a6440203618ffcf52') in 0.023793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_construction_fence_01a.FBX
-  artifactKey: Guid(c0e2126796fa4074fbebc9e945d3f151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_construction_fence_01a.FBX using Guid(c0e2126796fa4074fbebc9e945d3f151) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '15ec459c57a6d95a13f77facd3276d75') in 0.029818 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_construction_fence_01c.FBX
-  artifactKey: Guid(afe6cc020eb069b448f8f2b81bd1417e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_construction_fence_01c.FBX using Guid(afe6cc020eb069b448f8f2b81bd1417e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '393e35a2847dd73001f8dd6da4317e96') in 0.029116 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_ConcreteBag_03a.FBX
-  artifactKey: Guid(fb92aa8ebeab1734cb7ea2e8427ab829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_ConcreteBag_03a.FBX using Guid(fb92aa8ebeab1734cb7ea2e8427ab829) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cf701a9767043d5f874c353bbe4a8688') in 0.029340 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_ConcreteBag_01a.FBX
-  artifactKey: Guid(c266418baa4ac0740aad6643cbb3dae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_ConcreteBag_01a.FBX using Guid(c266418baa4ac0740aad6643cbb3dae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0cdd3e6ed09e736816a57db11aea91aa') in 0.030392 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_construction_fence_01b.FBX
-  artifactKey: Guid(0bfa60fb7e2762d4ea6d95c9d2cc7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_construction_fence_01b.FBX using Guid(0bfa60fb7e2762d4ea6d95c9d2cc7418) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e30d2c542a76cf93084b433fba6d8f15') in 0.032380 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_ConstructionPylons_01g.FBX
-  artifactKey: Guid(4cb90b5b2d361884e96244b11694c836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_ConstructionPylons_01g.FBX using Guid(4cb90b5b2d361884e96244b11694c836) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '83d8cb6b4da4e53fc93bf2a9891d0f88') in 0.029027 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.611018 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_Roadblock_04a.FBX
-  artifactKey: Guid(5931a23b2b6821140811ffcbf349b469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_Roadblock_04a.FBX using Guid(5931a23b2b6821140811ffcbf349b469) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8abbdb9b9133c8040cd744c291a57455') in 0.033880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_woodenpalette_01a.FBX
-  artifactKey: Guid(1cb7dd60e1ec73a46ada262e8585a559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_woodenpalette_01a.FBX using Guid(1cb7dd60e1ec73a46ada262e8585a559) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8572c3a7b7610f277856d88d22806d4d') in 0.032532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 33
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_Tarp_01b.FBX
-  artifactKey: Guid(08ec6db18ac44df4caff745d3b9b134b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Meshes/SM_Tarp_01b.FBX using Guid(08ec6db18ac44df4caff745d3b9b134b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2095aa9e6f6501ad99cf7371b970570f') in 0.030898 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 38
-========================================================================
-Received Import Request.
-  Time since last request: 2.941717 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Materials/Ml_ConcreteBag_01a.mat
-  artifactKey: Guid(5007ab247e0f60748a479398ac9b525b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Materials/Ml_ConcreteBag_01a.mat using Guid(5007ab247e0f60748a479398ac9b525b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a2bc173f1c2bb45e095cc6a2edef94c3') in 0.013574 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Materials/Ml_Portapotty_01b.mat
-  artifactKey: Guid(580c90ae4f567ce4fa5e6efad025cb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Materials/Ml_Portapotty_01b.mat using Guid(580c90ae4f567ce4fa5e6efad025cb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '314dda2404472869742991ea7ff52974') in 0.011893 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Materials/Ml_Dumpster_01a.mat
-  artifactKey: Guid(ff73036b46849ca479ec804fe2162976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Materials/Ml_Dumpster_01a.mat using Guid(ff73036b46849ca479ec804fe2162976) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c2ebd1909143c642d2d048c746667b7a') in 0.012396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Materials/Ml_Spool_01b.mat
-  artifactKey: Guid(e091dbbc86975b1469d4a8547f08dae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Materials/Ml_Spool_01b.mat using Guid(e091dbbc86975b1469d4a8547f08dae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '6fd236c7b86afdf9f31cd7cb90352ec6') in 0.012374 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Materials/Ml_Tarp_01a.mat
-  artifactKey: Guid(33df6f80156db8644a2979d81886e499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Materials/Ml_Tarp_01a.mat using Guid(33df6f80156db8644a2979d81886e499) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '57560e04f025ccae302608b0e0a73a21') in 0.011478 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 4.199931 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_BrickPaletteStack_01a_ALB.tga
-  artifactKey: Guid(4991d47a6fab1ca47a9aafd46ce95c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_BrickPaletteStack_01a_ALB.tga using Guid(4991d47a6fab1ca47a9aafd46ce95c51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '92bae90e97a8a5ab109b983c7b9a8d2c') in 0.018115 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_ConcretePipe_01a_NRM.tga
-  artifactKey: Guid(db6c6167f14669e4dac41f7b4f77da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_ConcretePipe_01a_NRM.tga using Guid(db6c6167f14669e4dac41f7b4f77da34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '496d2b98853f7959a433850890bccf7a') in 0.020202 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_CableReel_01a_ALB.tga
-  artifactKey: Guid(225a3c3c31606804ab9c5002718e0bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_CableReel_01a_ALB.tga using Guid(225a3c3c31606804ab9c5002718e0bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'fd60342965cc8119f78bd55d7f93c9e7') in 0.022550 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Construction_fence_01a_NRM.tga
-  artifactKey: Guid(7a536b9d13688954f9599fc4d4e2671b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Construction_fence_01a_NRM.tga using Guid(7a536b9d13688954f9599fc4d4e2671b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '33ff8d1a9a7a8b9707932fc49f821201') in 0.032835 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Dumpster_01a_ALB.tga
-  artifactKey: Guid(b05ecd7f377acbb468f1cc6894433096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Dumpster_01a_ALB.tga using Guid(b05ecd7f377acbb468f1cc6894433096) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '50093df12d78ff5ceb48fa330abe5d18') in 0.020813 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_DebrisTile_AO.tga
-  artifactKey: Guid(2720a7b6784110049abb1d68de996841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_DebrisTile_AO.tga using Guid(2720a7b6784110049abb1d68de996841) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a9df779c57130e64f212ab502bb89adb') in 0.032956 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_ConstructionPylons_01a_ALB.tga
-  artifactKey: Guid(8255f3885fda9754484616a897721b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_ConstructionPylons_01a_ALB.tga using Guid(8255f3885fda9754484616a897721b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8afabd1e5f8b14d03244702499ccf7a7') in 0.025726 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Dumpster_01a_AO.tga
-  artifactKey: Guid(8bee09d09e17f624cb8b2f9ca348bb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Dumpster_01a_AO.tga using Guid(8bee09d09e17f624cb8b2f9ca348bb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1d79de9041bb601ad04e6090c8dd9bb9') in 0.023050 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Crate_01a_MS.tga
-  artifactKey: Guid(6dd7db921dfc1fc43b6a5a91a8b9b344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Crate_01a_MS.tga using Guid(6dd7db921dfc1fc43b6a5a91a8b9b344) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ea3f1a8007ddbdea8e177a92c9cb955a') in 0.022682 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_construction_fence_01a_AO.tga
-  artifactKey: Guid(0b4f7185e00a863419df7007e332dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_construction_fence_01a_AO.tga using Guid(0b4f7185e00a863419df7007e332dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'fdcd4c7220c30db9d03111839001bab0') in 0.034106 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_BrickPaletteStack_01a_NRM.tga
-  artifactKey: Guid(18843cf1df327d342831e9c740bdf5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_BrickPaletteStack_01a_NRM.tga using Guid(18843cf1df327d342831e9c740bdf5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0ac76937ba556236c7f6cc1b29172311') in 0.031739 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 2.546087 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_LightGenerator_01a_MS.tga
-  artifactKey: Guid(9478c9109f4b8fb408f0c6b852d147fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_LightGenerator_01a_MS.tga using Guid(9478c9109f4b8fb408f0c6b852d147fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '458a4f94d96ad53d7625ffd80c162aa7') in 0.015510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_PlasticBarrel_01a_NRM.tga
-  artifactKey: Guid(15ca887756acd4b4f9d5d7df873414f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_PlasticBarrel_01a_NRM.tga using Guid(15ca887756acd4b4f9d5d7df873414f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7f6c71c4c96cfbe639c6aa12eaf1ff08') in 0.011442 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_OilBarrel_01a_AO.tga
-  artifactKey: Guid(d7db855364940c64f99edaf693327df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_OilBarrel_01a_AO.tga using Guid(d7db855364940c64f99edaf693327df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '14237f8f1748c51bcb73f4c693d1c03a') in 0.014439 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_OilBarrel_01a_MS.tga
-  artifactKey: Guid(a40f33226e1678a4d91ad017ef5be62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_OilBarrel_01a_MS.tga using Guid(a40f33226e1678a4d91ad017ef5be62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c605b4a13490d9a27809f2b2f04fad7e') in 0.013494 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.020616 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Portapotty_01a_ALB.tga
-  artifactKey: Guid(556e32392a275b946946b79e73049478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Portapotty_01a_ALB.tga using Guid(556e32392a275b946946b79e73049478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '29037c9fb17388460f758cac4214e17d') in 0.020237 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Roadblock_01a_ALB.tga
-  artifactKey: Guid(1ea0c12d8f83cf04aaf358d6a17ee2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Roadblock_01a_ALB.tga using Guid(1ea0c12d8f83cf04aaf358d6a17ee2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '49ffa787d3c844e1a0b9f05efb07cbb7') in 0.022881 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Roadblock_01a_AO.tga
-  artifactKey: Guid(9114cb62294fab642940d8bdf4579070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Roadblock_01a_AO.tga using Guid(9114cb62294fab642940d8bdf4579070) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '96e8daf5510ffa87ecb9af6da3b9a6ec') in 0.014756 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Tarp_01a_AO.tga
-  artifactKey: Guid(af7932bde4bee8149966eb961b08ae31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Tarp_01a_AO.tga using Guid(af7932bde4bee8149966eb961b08ae31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '84eb733fe9ccc2b287eea613129d8c84') in 0.010590 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Spool_01b_MS.tga
-  artifactKey: Guid(dcb0da44d40ea91499d7006f0ebf0097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Spool_01b_MS.tga using Guid(dcb0da44d40ea91499d7006f0ebf0097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '51bba5783d30dd62346b6e482d14a20e') in 0.008255 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000009 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Roadblock_01a_NRM.tga
-  artifactKey: Guid(7750a9271da46f24297fbf69f6cf5c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Roadblock_01a_NRM.tga using Guid(7750a9271da46f24297fbf69f6cf5c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'debfbf9d0e0e92bced6c242ecf7308eb') in 0.015859 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Trafficbarrier_01a_NRM.tga
-  artifactKey: Guid(127ab681dd216ee4e90f0b4b313b21e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Textures/TX_Trafficbarrier_01a_NRM.tga using Guid(127ab681dd216ee4e90f0b4b313b21e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '19cb1d97a7df55538fe86ad85edb0c33') in 0.023094 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.259277 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_BrickPaletteStack_01a.prefab
-  artifactKey: Guid(29d6998b2ed6d0d4599c5039fed1b557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_BrickPaletteStack_01a.prefab using Guid(29d6998b2ed6d0d4599c5039fed1b557) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '76f0a0256f389dcc91bb3416ae06b86d') in 0.021035 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 63
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_Crate_01a.prefab
-  artifactKey: Guid(af2736e0f68b8fa4e941722e28894d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_Crate_01a.prefab using Guid(af2736e0f68b8fa4e941722e28894d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'eb419e5f87abeaf6f3c8555b66d59b91') in 0.052271 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 45
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_PlasticBarrel_01a.prefab
-  artifactKey: Guid(63333856a7445f14bbfae7b4bf7cec4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_PlasticBarrel_01a.prefab using Guid(63333856a7445f14bbfae7b4bf7cec4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0d6e8ac8778e12a3aa39bf9729952bd5') in 0.046070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 63
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_ConstructionPylons_01a.prefab
-  artifactKey: Guid(f23c94596c8261f4ca69fb0334935cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_ConstructionPylons_01a.prefab using Guid(f23c94596c8261f4ca69fb0334935cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f2e286a56dce0c2f1dc1374a37d1b3b4') in 0.016942 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 63
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_ConstructionPylons_01g.prefab
-  artifactKey: Guid(1af22bbbc45f135499886cc253ff6813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_ConstructionPylons_01g.prefab using Guid(1af22bbbc45f135499886cc253ff6813) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f270f9f0a66d6c74ead10ea678d2b0ca') in 0.042287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 63
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_LightGenerator_01a.prefab
-  artifactKey: Guid(98b163066cd9baa4887bbdffe28a4986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_LightGenerator_01a.prefab using Guid(98b163066cd9baa4887bbdffe28a4986) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bac4eaa58db4d4d14bd5727741ff765b') in 0.072054 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 68
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_Drywall_01a.prefab
-  artifactKey: Guid(702d6649eed2ff3458103c860c79e94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_Drywall_01a.prefab using Guid(702d6649eed2ff3458103c860c79e94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '108bc923e27b201530a3117cdd3580a7') in 0.012622 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 45
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_ConcreteBag_01a.prefab
-  artifactKey: Guid(ecc5533f55152754fa602091f32304a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_ConcreteBag_01a.prefab using Guid(ecc5533f55152754fa602091f32304a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '27b08c52024078443e0b24a816d9ddc5') in 0.013370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 63
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_BrickPaletteStack_01g.prefab
-  artifactKey: Guid(143bafaf6c7c4cf44ac398dd50d34142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_BrickPaletteStack_01g.prefab using Guid(143bafaf6c7c4cf44ac398dd50d34142) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '278faabdf6f4b620a2faaaeef839caff') in 0.012507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 45
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_Dumpster_01a.prefab
-  artifactKey: Guid(f3221b32c3df96e4d88e74d8b776029f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_Dumpster_01a.prefab using Guid(f3221b32c3df96e4d88e74d8b776029f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4d1b3bb66d19870ccbdb819fcaba01a0') in 0.020399 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 68
-========================================================================
-Received Import Request.
-  Time since last request: 9.201729 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_Tarp_01b.prefab
-  artifactKey: Guid(2a872919bf1b4c54bad71d0313b21d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_Tarp_01b.prefab using Guid(2a872919bf1b4c54bad71d0313b21d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '51d112af845df049bedf806645e0f66f') in 0.017809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 63
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_Tarp_01d.prefab
-  artifactKey: Guid(9809376684b747b4bbfa995ced52985f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Map & decor/Mesh/Construction_Package/Construction_Vol01/Prefabs/SM_Tarp_01d.prefab using Guid(9809376684b747b4bbfa995ced52985f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'dd02b1768fc4226c79e19062c384fa62') in 0.017757 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 63
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp-Editor: 313400a751e441a2d874eab7f0380857 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
