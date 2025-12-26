@@ -1,11 +1,13 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using UnityEngine;
 
 public class Wave : MonoBehaviour
 {
     public GameObject enemyPrefab;
+    public GameObject healPrefab;
     public List<Transform> spawnPoints;
     public List<Transform> spawnPointsUsed;
 
@@ -42,13 +44,21 @@ public class Wave : MonoBehaviour
 
         for (int i = 0; i < enemyCount; i++)
         {
-            
+
             int random_id = UnityEngine.Random.Range(0, spawnPoints.Count);
             Transform spawn = spawnPoints[random_id];
 
             spawnPoints.RemoveAt(random_id);
             spawnPointsUsed[i] = spawn;
-            Instantiate(enemyPrefab, spawn.position, spawn.rotation);
+            int random_heal = UnityEngine.Random.Range(0, 5);
+            if (random_heal == 0)
+            {
+                Instantiate(healPrefab, spawn.position, spawn.rotation);
+            }
+            else 
+            { 
+                Instantiate(enemyPrefab, spawn.position, spawn.rotation);
+            }
             yield return new WaitForSeconds(0.4f);
         }
 

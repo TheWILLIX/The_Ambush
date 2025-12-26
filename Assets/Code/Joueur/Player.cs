@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.UI;
+using static System.Net.Mime.MediaTypeNames;
 
 public class Player : MonoBehaviour
 {
@@ -13,8 +15,8 @@ public class Player : MonoBehaviour
     public Camera cam;
     public int bullets = 6;
     public int vie = 4;
-    public Text Nb_Munition;
-    public Text Nb_Vie;
+    public UnityEngine.UI.Text Nb_Munition;
+    public UnityEngine.UI.Text Nb_Vie;
     public bool gameOver = false;
 
     private void Start()
@@ -30,7 +32,7 @@ public class Player : MonoBehaviour
             if (bullets > 0)
             {
                 Shoot();
-                
+
             }
             else
             {
@@ -40,7 +42,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown("r"))
         {
             Realod();
-            
+
         }
     }
 
@@ -60,6 +62,10 @@ public class Player : MonoBehaviour
                 {
                     enemy.TakeDamage(1);
                 }
+                if (hit.collider.TryGetComponent(out Heal heal))
+                {
+                    heal.TakeDamage(1);
+                }
                 if (hit.collider.TryGetComponent(out Projectile projectile))
                 {
                     projectile.DestroyProjectile();
@@ -74,7 +80,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    void Realod() 
+    void Realod()
     {
         audioSource.PlayOneShot(reload_pistol_sound);
 
@@ -83,15 +89,14 @@ public class Player : MonoBehaviour
         FindObjectOfType<Reload>().StopReload();
     }
 
-    public void Change_Life() 
+    public void Change_Life()
     {
         Nb_Vie.text = "Vie : " + vie;
-        Debug.Log(vie);
-        if (vie <= 0) 
+        if (vie <= 0)
         {
             FindObjectOfType<GameOver>().PlayGameOver();
             gameOver = true;
-            
+
         }
     }
 }
