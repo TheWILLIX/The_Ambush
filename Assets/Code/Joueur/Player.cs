@@ -5,6 +5,11 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
+    public AudioSource audioSource;
+
+    public AudioClip Shoot_pistol_sound;
+    public AudioClip Out_of_Ammo_sound;
+    public AudioClip reload_pistol_sound;
     public Camera cam;
     public int bullets = 6;
     public int vie = 4;
@@ -25,11 +30,17 @@ public class Player : MonoBehaviour
             if (bullets > 0)
             {
                 Shoot();
+                
+            }
+            else
+            {
+                audioSource.PlayOneShot(Out_of_Ammo_sound);
             }
         }
         if (Input.GetKeyDown("r"))
         {
             Realod();
+            
         }
     }
 
@@ -37,6 +48,8 @@ public class Player : MonoBehaviour
     {
         if (gameOver == false)
         {
+            audioSource.PlayOneShot(Shoot_pistol_sound);
+
             bullets--;
             Ray ray = cam.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
@@ -63,6 +76,8 @@ public class Player : MonoBehaviour
 
     void Realod() 
     {
+        audioSource.PlayOneShot(reload_pistol_sound);
+
         bullets = 6;
         Nb_Munition.text = "Munition : " + bullets;
         FindObjectOfType<Reload>().StopReload();

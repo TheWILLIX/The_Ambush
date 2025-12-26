@@ -19,8 +19,8 @@ public class Retry : MonoBehaviour
 
     public void RetryGame()
     {
-        UnityEngine.SceneManagement.SceneManager.UnloadScene("SampleScene");
-        UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
+        //UnityEngine.SceneManagement.SceneManager.UnloadScene("Map");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Map");
         
         Debug.Log("Retry");
     }

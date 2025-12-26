@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    public AudioSource audioSource;
+    public AudioClip rocket;
     Vector3 positionPlayer;
     Player player;
+    GameOver gameOverRef;
     // Start is called before the first frame update
     void Start()
     {
+        audioSource.PlayOneShot(rocket);
         player = FindObjectOfType<Player>();
+        gameOverRef = FindObjectOfType<GameOver>();
         positionPlayer = player.transform.position;
     }
 
@@ -23,6 +28,11 @@ public class Projectile : MonoBehaviour
             player.Change_Life();
             DestroyProjectile();
 
+        }
+
+        if (gameOverRef.gameOver == true) 
+        { 
+            DestroyProjectile(); 
         }
     }
 

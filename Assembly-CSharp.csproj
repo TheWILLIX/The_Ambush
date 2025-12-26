@@ -71,6 +71,7 @@
     <Compile Include="Assets\Code\Joueur\GameOver.cs" />
     <Compile Include="Assets\Code\Joueur\Player.cs" />
     <Compile Include="Assets\Code\Enemy\SimpleSpawner.cs" />
+    <Compile Include="Assets\Code\StartGame.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\GunAim.cs" />
     <Compile Include="Assets\Code\Enemy\Projectile.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
     <Compile Include="Assets\UnityTechnologies\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
     <Compile Include="Assets\Code\Enemy\Wave.cs" />
+    <Compile Include="Assets\Code\Quitter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scenes\Map &amp; decor\Mesh\WorldMaterialsFree\Shaders\WorldMatHDRPFree.shader" />

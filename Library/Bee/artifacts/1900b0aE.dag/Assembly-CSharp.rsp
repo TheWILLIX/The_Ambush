@@ -373,6 +373,8 @@
 "Assets/Code/Joueur/Retry.cs"
 "Assets/Code/Joueur/Score.cs"
 "Assets/Code/Joueur/Viseur.cs"
+"Assets/Code/Quitter.cs"
+"Assets/Code/StartGame.cs"
 "Assets/UnityTechnologies/EffectExamples/Shared/Scripts/DecalDestroyer.cs"
 "Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ExtinguishableFire.cs"
 "Assets/UnityTechnologies/EffectExamples/Shared/Scripts/GunAim.cs"
