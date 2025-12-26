@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    public AudioSource audioSource;
+    public AudioClip rocket;
     Vector3 positionPlayer;
     Player player;
     // Start is called before the first frame update
     void Start()
     {
+        audioSource.PlayOneShot(rocket);
         player = FindObjectOfType<Player>();
         positionPlayer = player.transform.position;
     }
